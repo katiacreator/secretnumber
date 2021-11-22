@@ -1,14 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <script defer src="app.js"></script>
-  <title>Document</title>
-</head>
-<body>
-  
-</body>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="app.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <h1>Secret Number</h1>
+      <p>Guess the secret number between 0 and 100</p>
+    </header>
+    <main>
+      <!-- Number Input where guess takes place -->
+      <div class="guess" id="guess">
+        <input type="number" class="numberInput/>
+        <button class="btn" id="submit">Submit</button>
+      </div>
+      <!-- Secret number lives in this div to be revealed at end of the game -->
+      <div class="number" id="secret">?</div>
+      <!-- All messages will be displayed here -->
+      <div class="msg" id="display">Start guessing...</div>
+      <!-- Score and high score will be displayed here -->
+      <div class="score">100 points</div>
+      <div class="high-score">1000 points</div>
+      <!-- Start and Reset buttons will be revealed dynamically -->
+      <div class="btns">
+        <button class="start">Start</button>
+        <button class="reset" disabled>Reset</button>
+      </div>
+    </main>
+  </body>
 </html>
