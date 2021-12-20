@@ -25,3 +25,4 @@ display msg when guess matches secret
 REVEAL SECRET NUMBER IN DIV
 increment score on correct guess
 total score after each round to get high score
+

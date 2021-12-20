@@ -5,22 +5,25 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
-  <title>Secret Number Game</title>
+  <script defer src="script.js"></script>
+  <title>Secret Number DEV</title>
 </head>
 <body>
   <main id="main-container">
     <header id="header-container">
-      <div class="title">Secret Game</div>
+      <div class="title">Secret Number</div>
       <div class="instructions">Guess the correct number between 1 and 100</div>
     </header>
-    <div id="thumbnail-container">
-      <!-- Numbers Grid -->
+    <div id="grid-container">
+      <!-- Numbers Grid to be used for thumbnail shot and hold numbers grid for screen display 1-->
     </div>
     <div id="timer-container">
-      <!-- timer goes here -->
+      <!-- timer goes here -->00:00
     </div>
     <div id="btn-container">
       <!-- start and reset btn group goes here -->
+      <button class="start-btn show" id="start">START</button>
+      <button class="reset-btn hide" id="reset" disabled>RESET</button>
     </div>
     <div id="guess-container">
       <!-- guess input -->
