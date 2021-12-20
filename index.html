@@ -1,40 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <script defer src="app.js"></script>
-    <title>Document</title>
-  </head>
-  <body>
-    <header>
-      <h1>Secret Number</h1>
-      <p>Guess the secret number between 0 and 100</p>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Secret Number Game</title>
+</head>
+<body>
+  <main id="main-container">
+    <header id="header-container">
+      <div class="title">Secret Game</div>
+      <div class="instructions">Guess the correct number between 1 and 100</div>
     </header>
-    <main>
-      <!-- Number Input where guess takes place -->
-      <div class="input" id="numberInput">
-        <input type="number" class="guess" min='1' max ='99'/>
-        <button class="btn" id="submit">Submit</button>
-      </div>
-      <!-- Secret number lives in this div to be revealed at end of the game -->
-      <div class="number" id="secret"></div>
-      <!-- All messages will be displayed here -->
-      <div class="msg" id="display">Start guessing...</div>
-      <!-- Score and high score will be displayed here -->
-      <div class="score">
-        <span id="score">0</span>
-      </div>
-      <div class="high-score">
-        <span id="high-score">0</span>
-      </div>
-      <!-- Start and Reset buttons will be revealed dynamically -->
-      <div class="btns">
-        <button class="btn" id="start">Start</button>
-        <button class="btn" id="reset" disabled>Reset</button>
-      </div>
-    </main>
-  </body>
+    <div id="thumbnail-container">
+      <!-- Numbers Grid -->
+    </div>
+    <div id="timer-container">
+      <!-- timer goes here -->
+    </div>
+    <div id="btn-container">
+      <!-- start and reset btn group goes here -->
+    </div>
+    <div id="guess-container">
+      <!-- guess input -->
+    </div>
+    <div id="msg-container">
+      <!-- displaying too low/high msg goes here -->
+    </div>
+    <div id="score-container">
+      <!-- displaying final scores and msg -->
+    </div>
+  </main>
+</body>
 </html>
