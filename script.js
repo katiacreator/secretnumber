@@ -1,7 +1,10 @@
 const grid = document.querySelector('#grid-container')
 // console.log(grid)
-const colors = ['#fcba03', '#fc4e03', '#03fc90','#5792eb', '#00ffff', '#5c57eb', '#eb57cd', '#96097a', '#fc68dc', '#5efc58', '#fc8758', '#e04407', '#fcc1a9', '#d7a9fc', '#de2a39', '#2ac0de', '#0702fa', '#bc62fc', '#43b3ae', '#ff0000', '#ff4040', '#ba55d3', '#ff00ff', 'blue', 'turquoise', 'purple', 'peru', 'yellow']
-const SQUARES = 54
+const colors = ['#FF6633', 'purple','#FFB399', '#FF33FF', '#FFFF99', '#00B3E6', 
+'#E6B333', '#3366E6', 'peru', 'yellow','#999966', '#99FF99', '#B34D4D','aliceblue',
+'#FF99E6', '#CCFF1A', '#FF1A66', '#E6331A', '#33FFCC',
+ '#fc4e03', 'peru', 'purple', 'turquoise','yellow', '#03fc90','#5792eb', '#00ffff', '#5c57eb', '#eb57cd', '#96097a', '#fc68dc', 'peru', 'yellow','#5efc58', '#fc8758', '#e04407', '#fcc1a9', 'purple', '#d7a9fc', '#de2a39', '#2ac0de', 'orange', '#bc62fc', '#43b3ae', '#ff0000', '#ff4040', '#ba55d3', '#ff00ff', 'blue', 'turquoise', 'peru', 'peru', 'yellow']
+const SQUARES = 50
 // console.log(SQUARES)
 let number;
 
